@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'FancyNotifications'
+    s.name = 'OvosMediaFancyNotifications'
     s.version = '0.0.3'
     s.summary = 'Local notifications for capacitor'
     s.license = 'MIT'
