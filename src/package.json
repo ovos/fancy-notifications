@@ -22,7 +22,7 @@
     "dist/",
     "ios/",
     "android/",
-    "FancyNotifications.podspec"
+    "OvosMediaFancyNotifications.podspec"
   ],
   "keywords": [
     "capacitor",
