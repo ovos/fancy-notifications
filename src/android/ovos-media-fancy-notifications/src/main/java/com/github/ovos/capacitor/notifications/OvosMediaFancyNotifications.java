@@ -1,4 +1,4 @@
-package com.github.triniwiz.capacitor.notifications;
+package com.github.ovos.capacitor.notifications;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
