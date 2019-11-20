@@ -11,3 +11,4 @@ demo/www
 demo/android/app/build
 src/android/ovos-media-fancy-notifications/build
 package-lock.json
+src/android/build
