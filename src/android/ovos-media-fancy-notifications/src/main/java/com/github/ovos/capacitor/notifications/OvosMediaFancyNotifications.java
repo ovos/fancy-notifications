@@ -10,7 +10,7 @@ import me.leolin.shortcutbadger.Badger;
 import me.leolin.shortcutbadger.ShortcutBadger;
 
 @NativePlugin()
-public class FancyNotifications extends Plugin {
+public class OvosMediaFancyNotifications extends Plugin {
 
     @PluginMethod()
     public void setBadgeCount(PluginCall call) {

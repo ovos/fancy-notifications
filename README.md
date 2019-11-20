@@ -5,13 +5,13 @@
 
 ## Installation
 
-- `npm i fancy-notifications`
+- `npm i @ovos-media/fancy-notifications`
 
 ## Usage
 
 
 ```typescript
-import 'fancy-notifications';
+import '@ovos-media/fancy-notifications';
 import { Plugins } from '@capacitor/core';
 const {FancyNotifications} = Plugins;
 async function updateBadgeCount() {

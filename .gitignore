@@ -4,7 +4,10 @@ node_modules
 src/ios/Plugin/Pods/
 demo/android/app/src/main/assets
 .idea
+.gradle
+.settings
+.project
 demo/www
 demo/android/app/build
-src/android/fancy-notifications/build
+src/android/ovos-media-fancy-notifications/build
 package-lock.json
