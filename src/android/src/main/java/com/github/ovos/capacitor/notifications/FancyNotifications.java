@@ -1,15 +1,15 @@
 package com.github.ovos.capacitor.notifications;
 
 import com.getcapacitor.JSObject;
-import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
+import com.getcapacitor.annotation.CapacitorPlugin;
 
 import me.leolin.shortcutbadger.Badger;
 import me.leolin.shortcutbadger.ShortcutBadger;
 
-@NativePlugin()
+@CapacitorPlugin()
 public class FancyNotifications extends Plugin {
 
     @PluginMethod()
@@ -21,7 +21,6 @@ public class FancyNotifications extends Plugin {
         } else {
             call.error("Device not supported");
         }
-
     }
 
     @PluginMethod()
