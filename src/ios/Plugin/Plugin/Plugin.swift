@@ -9,13 +9,13 @@ public class FancyNotificationsPlugin: CAPPlugin {
         DispatchQueue.main.async {
             UIApplication.shared.applicationIconBadgeNumber = count;
         }
-        call.success();
+        call.resolve();
     }
 
     @objc func clearBadgeCount(_ call: CAPPluginCall) {
         DispatchQueue.main.async {
             UIApplication.shared.applicationIconBadgeNumber = 0;
-            call.success();
+            call.resolve();
         }
     }
 
@@ -26,10 +26,10 @@ public class FancyNotificationsPlugin: CAPPlugin {
             var object: JSObject = [:]
             if(error != nil){
                 object["value"] = false;
-                call.success(object)
+                call.resolve(object)
             }else{
                 object["value"] = true;
-                call.success(object)
+                call.resolve(object)
             }
         }
     }
@@ -42,10 +42,10 @@ public class FancyNotificationsPlugin: CAPPlugin {
             print(settings.authorizationStatus == .authorized)
             if(settings.authorizationStatus == .authorized){
                 object["value"] = true;
-                call.success(object)
+                call.resolve(object)
             }else{
                 object["value"] = false;
-                call.success(object)
+                call.resolve(object)
             }
         }
     }
