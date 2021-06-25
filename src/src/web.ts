@@ -26,7 +26,3 @@ export class FancyNotificationsPluginWeb extends WebPlugin implements FancyNotif
         return undefined;
     }
 }
-
-const FancyNotifications = new FancyNotificationsPluginWeb();
-
-export { FancyNotifications };

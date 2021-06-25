@@ -9,7 +9,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 import me.leolin.shortcutbadger.Badger;
 import me.leolin.shortcutbadger.ShortcutBadger;
 
-@CapacitorPlugin()
+@CapacitorPlugin(name = "FancyNotifications")
 public class FancyNotifications extends Plugin {
 
     @PluginMethod()
