@@ -5,15 +5,17 @@
 
 ## Installation
 
-- `npm i @ovos-media/fancy-notifications`
+- `yarn add @ovos-media/fancy-notifications`
 
+## Publish
+
+- `yarn publish`
 ## Usage
 
 
 ```typescript
-import '@ovos-media/fancy-notifications';
-import { Plugins } from '@capacitor/core';
-const {FancyNotifications} = Plugins;
+import { FancyNotifications } from '@ovos-media/fancy-notifications';
+
 async function updateBadgeCount() {
   const check = await FancyNotifications.hasPermission();
   if(check.value){
