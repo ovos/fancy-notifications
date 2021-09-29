@@ -1,6 +1,6 @@
 {
   "name": "@ovos-media/fancy-notifications",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Local notifications for capacitor",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
