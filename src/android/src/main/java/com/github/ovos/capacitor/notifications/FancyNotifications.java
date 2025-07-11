@@ -17,9 +17,9 @@ public class FancyNotifications extends Plugin {
         int count = call.getInt("count", 0);
         if (ShortcutBadger.isBadgeCounterSupported(getContext())) {
             ShortcutBadger.applyCount(getContext(), count);
-            call.success();
+            call.resolve();
         } else {
-            call.error("Device not supported");
+            call.reject("Device not supported");
         }
     }
 
@@ -27,9 +27,9 @@ public class FancyNotifications extends Plugin {
     public void clearBadgeCount(PluginCall call) {
         if (ShortcutBadger.isBadgeCounterSupported(getContext())) {
             ShortcutBadger.removeCount(getContext());
-            call.success();
+            call.resolve();
         } else {
-            call.error("Device not supported");
+            call.reject("Device not supported");
         }
     }
 
