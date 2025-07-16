@@ -3,10 +3,7 @@ import { FancyNotificationsPlugin } from './definitions';
 
 export class FancyNotificationsPluginWeb extends WebPlugin implements FancyNotificationsPlugin {
     constructor() {
-        super({
-            name: 'FancyNotifications',
-            platforms: ['web']
-        });
+        super();
     }
 
     clearBadgeCount(): Promise<any> {
