@@ -17,6 +17,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.github.ovos.capacitor.notifications"
     compileSdkVersion 31
     defaultConfig {
         minSdkVersion 21
